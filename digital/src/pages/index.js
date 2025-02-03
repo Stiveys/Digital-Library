@@ -58,6 +58,7 @@ const Home = () => {
     setEditingBook(null);
   }, []);
 
+
   // Define a callback function to handle deleting a book
   const handleDeleteBook = useCallback((id) => {
     // Update the books array by removing the deleted book
@@ -69,6 +70,7 @@ const Home = () => {
     // Reset the editing book in state
     setEditingBook(null);
   }, []);
+  
 
   // Use the useEffect hook to filter the books array when the search term changes
   useEffect(() => {
