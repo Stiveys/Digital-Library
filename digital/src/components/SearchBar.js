@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from './SearchBar.module.css'; // Import CSS module for styling
 
+
 // SearchBar component takes one prop: onSearch (function to handle search input).
 const SearchBar = ({ onSearch }) => {
   return (
@@ -17,4 +18,4 @@ const SearchBar = ({ onSearch }) => {
   );
 };
 
-export default SearchBar; 
+export default SearchBar;
