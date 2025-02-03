@@ -1,0 +1,44 @@
+/* components/BookItem.module.css */
+.bookItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .bookDetails {
+    flex: 1;
+  }
+
+  .bookDetails p {
+    margin: 5px 0;
+  }
+
+  .bookActions {
+    display: flex;
+    gap: 5px;
+  }
+
+  .editButton,
+  .deleteButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .deleteButton {
+    background-color: #dc3545;
+  }
+  .editButton:hover,
+  .deleteButton:hover{
+      opacity: 0.8;
+  }
+  .highlight {
+    background-color: yellow;
+  }

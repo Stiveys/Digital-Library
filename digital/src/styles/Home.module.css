@@ -1,0 +1,11 @@
+/* styles/Home.module.css */
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    margin-bottom: 20px;
+  }

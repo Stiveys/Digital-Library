@@ -1,0 +1,5 @@
+/* components/BookList.module.css */
+.bookList {
+    list-style: none;
+    padding: 0;
+  }
