@@ -31,6 +31,7 @@ const BookItem = ({ book, onEdit, onDelete, highlight }) => {
       });
     };
 
+  
   return (
     // Render the book item as a list item with a specific class.
     <li className={styles.bookItem}>
